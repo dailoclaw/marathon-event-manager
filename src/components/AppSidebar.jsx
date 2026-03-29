@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 
 import { CSidebar, CSidebarBrand, CSidebarNav, CNavTitle, CNavItem, CNavGroup } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
+import { cilRunning } from '@coreui/icons'
 
 import { AppSidebarNav } from './AppSidebarNav'
 
@@ -27,9 +28,9 @@ const AppSidebar = () => {
       }}
     >
       <CSidebarBrand className="d-none d-md-flex">
-        <CIcon className="sidebar-brand-full" icon="cil-running" height={35} /> {/* Placeholder Running Icon */}
-        <span className="sidebar-brand-full fs-4 fw-bold ms-2">MEM</span> {/* MEM for Marathon Event Manager */}
-        <CIcon className="sidebar-brand-narrow" icon="cil-running" height={35} /> {/* Small icon for collapsed state */}
+        <CIcon className="sidebar-brand-full" icon={cilRunning} height={35} />
+        <span className="sidebar-brand-full fs-4 fw-bold ms-2">MEM</span>
+        <CIcon className="sidebar-brand-narrow" icon={cilRunning} height={35} />
       </CSidebarBrand>
       <CSidebarNav>
         <SimpleBar>
