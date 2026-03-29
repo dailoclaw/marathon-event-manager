@@ -24,7 +24,6 @@
     "@fullcalendar/react": "^6.1.11",
     "@fullcalendar/timegrid": "^6.1.11",
     "@react-leaflet/core": "^2.1.0",
-    "@react-leaflet/leaflet-v2-migration": "^1.0.0",
     "@react-leaflet/markercluster": "^3.0.0",
     "@reduxjs/toolkit": "^2.2.3",
     "@supabase/supabase-js": "^2.42.5",
