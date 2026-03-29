@@ -15,6 +15,7 @@ import {
   CDropdownToggle,
   CDropdownMenu,
   CDropdownItem,
+  CDropdownDivider,
   CBadge
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
@@ -86,7 +87,7 @@ const AppHeader = () => {
                 <CIcon icon={cilSettings} className="me-2" />
                 Settings
               </CDropdownItem>
-              <CDropdownItem divider />
+              <CDropdownDivider />
               <CDropdownItem href="#">Sign Out</CDropdownItem>
             </CDropdownMenu>
           </CDropdown>
